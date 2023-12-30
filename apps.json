@@ -1,14 +1,12 @@
 {
-  "name": "AltStore",
-  "identifier": "com.rileytestut.AltStore",
+  "name": "AncStore",
+  "identifier": "com.ancalina.AltStore",
   "subtitle": "한국어로 번역된 AltStre 저장소.",
   "description": "This is the default source for AltStore. You can add additional sources to manage what apps appear in AltStore.\n\nFor more info, check out our FAQ: https://faq.altstore.io/patreon/beta-access/sources",
-  "website": "https://altstore.io",
-  "patreonURL": "https://www.patreon.com/rileyshane",
   "apps": [
     {
       "name": "AltStore",
-      "bundleIdentifier": "com.rileytestut.AltStore",
+      "bundleIdentifier": "com.ancalina.AltStore",
       "developerName": "Riley Testut",
       "versions": [
         {
