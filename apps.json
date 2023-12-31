@@ -11,41 +11,12 @@
       "versions": [
         {
           "version": "2.0b6K",
-          "date": "2023-09-18T12:00:00-05:00",
-          "localizedDescription": "NEW\n\n\"Active Apps\" Widget (iOS 17+)\n• View remaining days for ALL active apps from Home Screen\n• Refresh apps directly from home screen by tapping countdown timers\n\nIMPROVED\n\nShortcuts\n• Converted existing \"Refresh All Apps\" shortcut into App Shortcut\n• Available by default in \"App Shortcuts\" section of Shortcuts app\n• Displays accurate progress when refreshing apps via Shortcuts app\n\nWidgets\n• Updated existing home screen widget to support refreshing apps by tapping countdown (iOS 17+)\n• Fully compatible with macOS Sonoma\n\nFIXED\n• Fixed AltJIT on iOS 17*\n• Fixed updating apps with manually removed extensions (e.g. uYou+)\n• Fixed not refreshing AltStore last when refreshing via Shortcut\n• Fixed Error Log not displaying all detailed info for certain errors\n\n*Requires AltServer 1.7 (macOS)",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_7.ipa",
+          "date": "2024-01-01T12:00:00-05:00",
+          "localizedDescription": "한국어로 번역된 최초의 AltStore 공개 빌드.",
+          "downloadURL": "https://github.com/ancalina/altkrSource/raw/main/AltStore/AltStore.ipa",
           "size": 5809750,
           "minOSVersion": "15.0"
         },
-        {
-          "version": "1.6.3",
-          "date": "2023-04-12T12:00:00-05:00",
-          "localizedDescription": "• Fixed error fetching Friend Zone patrons due to unexpected nil name\n• Fixed incorrect cell height for some News items",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_3.ipa",
-          "size": 5625134
-        },
-        {
-          "version": "1.6.2",
-          "date": "2023-03-22T12:00:00-05:00",
-          "localizedDescription": "⚠️ You must manually install this update by re-installing AltStore with AltServer. You do NOT need to delete AltStore first.\n\nThis update fixes the \"no provisioning profile with the requested identifier…\" error when sideloading or refreshing apps.",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_2.ipa",
-          "size": 5624498
-        },
-        {
-          "version": "1.6.1",
-          "date": "2023-02-20T12:00:00-06:00",
-          "localizedDescription": "• “Clear Cache” button removes non-essential data to free up disk space\n• Sideload more than 3 apps via MacDirtyCow exploit*†\n• Fixes crash when viewing Sources on iOS 12\n\n*Requires iOS 14.0 - 16.1.2 (excluding 15.7.2). iOS 16.2+ not supported.\n†Visit faq.altstore.io for detailed instructions.\n",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_1.ipa",
-          "size": 5626583
-        },
-        {
-          "version": "1.6",
-          "date": "2023-01-30T10:00:00-06:00",
-          "localizedDescription": "NEW\n\nLock Screen Widget (iOS 16+)\n• Counts down days until AltStore expires\n• Available in 2 different styles: \"icon\" and \"text\"\n\nError Log\n• View past errors in more detail\n• Tap an error to copy the error message or error code\n• Search for error code directly in AltStore FAQ\n• Access via new \"Techy Things\" section in settings\n\niOS Version Compatibility\n• Checks iOS compatibility for updates and installs \n• Asks you to install latest compatible version if not supported\n• View unsupported updates from My Apps tab\n\nRevamped Error Handling\n• Completely revamped error handling to make debugging issues as easy as possible\n• Revised error messages to be more descriptive and provide more suggestions\n• Includes more information with errors\n\nMisc.\n• Pull-to-refresh to check for updates\n• Supports new “versions” key in source JSON\n• Supports updating apps from app detail page\n\nFIXED\n• Fixed \"more\" button appearing by mistake on app detail pages\n• Fixed widgets potentially not updating after refreshing apps\n• Fixed incorrect app name and iOS version in \"Unsupported iOS version\" error message\n• Fixed refreshing tweaked apps with removed app extensions\n• Fixed incorrect error toast view color when sign-in fails",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6.ipa",
-          "size": 5614798
-        }
-      ],
       "version": "1.6.3",
       "versionDate": "2023-04-12T12:00:00-05:00",
       "versionDescription": "• Fixed error fetching Friend Zone patrons due to unexpected nil name\n• Fixed incorrect cell height for some News items",
@@ -56,188 +27,12 @@
       "size": 5625134,
       "category": "utilities",
       "screenshots": [
-        "https://user-images.githubusercontent.com/705880/277757391-76c02f48-be2a-485a-ba75-277480c99356.jpeg",
-        "https://user-images.githubusercontent.com/705880/277757303-ee0b7695-0e7d-4a93-8b25-4fbbbd3cb745.PNG",
-        "https://user-images.githubusercontent.com/705880/277757263-ef612879-0314-4464-a8f4-103e1f22fbb1.png",
-        "https://user-images.githubusercontent.com/705880/277757445-450618d1-6005-445e-bfd4-7c75387e990b.PNG",
-        "https://user-images.githubusercontent.com/705880/277757220-ebbf42dc-5153-4e2d-9ff4-4c25ad367941.PNG",
-        "https://user-images.githubusercontent.com/705880/277757419-f8067301-61f3-4eae-bbd1-be1bf2a1c05c.PNG"
-      ],
-      "screenshotURLs": [
-        "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
-        "https://user-images.githubusercontent.com/705880/78942222-0fe6da00-7a6e-11ea-9f2a-dda16157583c.PNG",
-        "https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
-      ],
-      "permissions": [
-        {
-          "type": "background-fetch",
-          "usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
-        },
-        {
-          "type": "background-audio",
-          "usageDescription": "Allows AltStore to run longer than 30 seconds when refreshing apps in background."
-        }
-      ],
-      "appPermissions": {
-        "entitlements": [
-          {
-          "name": "get-task-allow"
-        },
-        {
-          "name": "com.apple.security.application-groups"
-        },
-        {
-          "name": "aps-environment"
-        },
-        {
-          "name": "com.apple.developer.siri"
-        }
-        ],
-        "privacy": [
-          {
-          "name": "LocalNetwork",
-          "usageDescription": "AltStore uses the local network to find and communicate with AltServer."
-        }
-      ]
-      }
-    },
-    {
-      "name": "AltStore",
-      "bundleIdentifier": "com.rileytestut.AltStore.Beta",
-      "developerName": "Riley Testut",
-      "subtitle": "An alternative App Store for iOS.",
-      "versions": [
-        {
-          "version": "2.0b6",
-          "date": "2023-12-13T13:00:00-06:00",
-          "localizedDescription": "NEW\n\nRedesigned Browse Tab\n• View most recently updated apps at a glance\n• Browse apps by source or by 8 new categories\n• Scroll through featured apps from each source\n• Change sort order of apps when browsing by source or category\n• Tap category name to easily switch between categories when browsing\n\nPatreon Integration\n• Developers can now distribute Patreon-exclusive apps to their patrons\n• Donate to developers' Patreons and download Patreon-exclusive apps all within AltStore\n• Shows required pledge amount for Patreon apps (if provided)\n\nReview Permissions Screen\n• Asks user to review permissions when installing and updating apps\n• When installing a new app, all entitlements will be shown\n• When updating an app, only added entitlements will be shown\n\nIMPROVED\n\nNews Tab\n• Changed image aspect ratio to 3:2\n• Updated font to use dynamic text styles\n\nImage Caching\n• Increased cache limit to reduce how often AltStore refetches images\n• Clear image cache with “Clear Cache…” option in Settings\n\nFIXED\n• Fixed app sometimes freezing when installing/refreshing apps\n• Fixed accidentally saving \"Operation Cancelled\" errors to Error Log\n• Fixed squished banners on App IDs screen\n• Fixed resigning apps with non-English alphanumeric characters in name\n• Fixed various issues resigning certain apps\n• Fixed button titles flashing when scrolling into view\n• Fixed not showing build version in Settings for BETA builds",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b6.ipa",
-          "size": 6326489,
-          "sha256": "657dd750f88823085e76c0e7ed2f440c04d6ac4b6e72e3bfa59a9a460a5dab4c",
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "2.0b5",
-          "date": "2023-10-23T13:30:00-05:00",
-          "localizedDescription": "NEW\n\nSources Tab\n• \"Sources\" screen is now a dedicated tab\n• Completely redesigned to accent source icons & tint colors\n• Dedicated \"Add Source\" screen simplifies adding sources\n\nScreenshots\n• Supports screenshots of different sizes\n• Supports both iPhone and iPad specific screenshots\n• Automatically rounds screenshots taken with Face ID iPhone's\n• Preview screenshots full-screen by tapping them from an app's store page\n\nIMPROVED\n\nBrowse Tab\n• Updated app listings to use new \"card\" design\n• Swipe through all screenshots directly from Browse tab\n\nSources\n• Simplified `appPermissions` JSON format\n• Deprecates `identifier` key\n\nLogging\n• Switched to OSLog.framework for important tasks\n• Export detailed logs via Error Log from Settings tab\n\nMisc.\n• Limits relative dates to \"Today\" and \"Yesterday\"\n• Uses uniform height for all News Items on source's detail page\n\nFIXED\n• Adjusts illegible Source tint colors to make them readable\n• Fixed incorrect background color for Sources screens in dark mode\n• Fixed crash if prefetching screenshots finishes after screen has been dismissed",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b5.ipa",
-          "size": 6094604,
-          "sha256": "2932afe112572847a89626fc403994dc8c3ae327c5d4ff7cf6ce9084414175f9",
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "2.0b4",
-          "date": "2023-09-15T13:30:00-05:00",
-          "localizedDescription": "• Updates Home Screen widget names & descriptions\n• Fixed returning empty dialog from Refresh Apps shortcut\n\nPREVIOUS BETA\n\n\"Active Apps\" Widget (iOS 17+)\n• View remaining days for ALL active apps from Home Screen\n• Refresh apps directly from home screen by tapping countdown timers\n\nShortcuts\n• Converted existing \"Refresh All Apps\" shortcut into App Shortcut\n• Available by default in \"App Shortcuts\" section of Shortcuts app\n• Displays accurate progress when refreshing apps via Shortcuts app\n\nWidgets\n• Updated existing home screen widget to support refreshing apps by tapping countdown (iOS 17+)\n\nBug Fixes\n• Fixed AltJIT on iOS 17*\n\n*Requires AltServer 1.7rc (macOS) from latest Patreon post",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b4.ipa",
-          "size": 5950900,
-          "sha256": "5f2546be957509532675f4827185d8ec071eaf3a6a5785dc01efcc1e0c88890d",
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "2.0b3",
-          "date": "2023-09-11T12:30:00-05:00",
-          "localizedDescription": "NEW\n\n\"Active Apps\" Widget (iOS 17+)\n• View remaining days for ALL active apps from Home Screen\n• Refresh apps directly from home screen by tapping countdown timers\n\nIMPROVED\n\nShortcuts\n• Converted existing \"Refresh All Apps\" shortcut into App Shortcut\n• Available by default in \"App Shortcuts\" section of Shortcuts app\n• Displays accurate progress when refreshing apps via Shortcuts app\n\nWidgets\n• Updated existing home screen widget to support refreshing apps by tapping countdown (iOS 17+)\n\nFIXED\n• Fixed AltJIT on iOS 17*\n• Fixed not refreshing AltStore last when refreshing via Shortcut\n• Fixed Error Log not displaying all detailed info for certain errors\n\n*Requires AltServer 1.7b1 (macOS) from latest Patreon post",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b3.ipa",
-          "size": 5951325,
-          "sha256": "e9bb9b126f7acb1c18f22c28f1970b308e5850cf23bf1bb01da7933a97e7d17d",
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "2.0b2",
-          "date": "2023-05-31T15:30:00-05:00",
-          "localizedDescription": "NEW\n\nApp Permissions\n• View all entitlements and privacy permissions on an app's store page\n• Tap a permission to view description\n• Shows error alert if downloaded app's permissions don't match source*\n\nSources\n• SHA-256 hashes for app downloads\n• Supports updating apps by build version\n• Supports remotely blocking sources\n\nFIXED\n• Fixed updating apps with manually removed extensions (e.g. uYou+)\n• Fixed showing \"Update\" button on store page when no update is available\n• Fixed \"More\" button appearing unnecessarily in Error Log\n• Fixed various memory leaks\n• Fixed incorrectly showing \"Unsupported Updates Available\"\n\n*While AltStore 2.0 is in beta, you can choose to ignore this alert.",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b2.ipa",
-          "size": 5963157,
-          "sha256": "8cd9d2a68f20e03b0501d2def9fabdbe2113e113a305a6824535e47b6bfd5bcf",
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "2.0b1",
-          "date": "2023-04-06T09:30:00-05:00",
-          "localizedDescription": "The first beta of AltStore 2.0 is finally here! 🎉\n\nAltStore 2.0 will unlock third-party sources for everyone, allowing anyone to distribute their apps with AltStore.\n\nNEW\n\nSource \"About\" Page\n• Preview sources before adding them to AltStore\n• Browse all apps and news for a source\n• \"About\" section includes detailed information and additional links\n• \"Featured Apps\" showcases a source's best apps\n• Customizable with updated source JSON format\n\nFIXED\n• Fixed error fetching Friend Zone patrons due to unexpected nil name\n• Fixed incorrect cell height for some News items\n• Fixed incorrectly merging app versions for same app from different sources",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/2_0_b1.ipa",
-          "size": 5793338,
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.6.2b",
-          "date": "2023-03-21T12:00:00-05:00",
-          "localizedDescription": "This beta fixes the \"no provisioning profile with the requested identifier…\" error when sideloading or refreshing apps.\n\n⚠️ You must manually install this update by downloading the latest AltServer beta from Patreon and using it to re-install AltStore. You do not need to delete AltStore first.",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_2_b.ipa",
-          "size": 5624104,
-          "minOSVersion": "12.2"
-        },
-        {
-          "version": "1.6.1b2",
-          "date": "2023-02-17T12:00:00-06:00",
-          "localizedDescription": "This beta fixes Windows Defender blocking AltStore from updating.\n\nPREVIOUS BETA:\n• Sideload more than 3 apps via MacDirtyCow exploit*\n• “Clear Cache” button removes non-essential data to free up disk space\n• Fixes crash when viewing Sources on iOS 12\n\n*Requires iOS 14.0 - 15.7.1 or 16.0 - 16.1.2. See Patreon post for instructions.",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_1_b2.ipa",
-          "size": 5626076,
-          "minOSVersion": "12.2"
-        },
-        {
-          "version": "1.6.1b",
-          "date": "2023-02-09T11:00:00-06:00",
-          "localizedDescription": "• Sideload more than 3 apps via MacDirtyCow exploit*\n• “Clear Cache” button removes non-essential data to free up disk space\n• Fixes crash when viewing Sources on iOS 12\n\n*Requires iOS 14.0 - 15.7.1 or 16.0 - 16.1.2. See Patreon post for instructions.",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_1_b.ipa",
-          "size": 5627282,
-          "minOSVersion": "12.2"
-        },
-        {
-          "version": "1.6rc3",
-          "date": "2023-01-23T11:30:00-06:00",
-          "localizedDescription": "**This update is solely to test that updating works as expected from the current beta, and otherwise is identical to 1.6 RC 2**\n\nPREVIOUS UPDATES\n• Fixed outdated AltStore updates appearing in My Apps tab\n• Moved Error Log from \"Debug\" settings to \"Techy Things\"\n• Improved misc. error messages\n• Fixed repeated \"AltServer could not be found\" notifications\n• Fixed missing metadata for errors received from AltServer\n• Fixed decoding nested error metadata values",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_rc3.ipa",
-          "size": 5614292,
-          "minOSVersion": "12.2"
-        },
-        {
-          "version": "1.6rc2",
-          "date": "2023-01-18T11:30:00-06:00",
-          "localizedDescription": "• Fixed outdated AltStore updates appearing in My Apps tab\n\nPREVIOUS RC\n• Moved Error Log from \"Debug\" settings to \"Techy Things\"\n• Improved misc. error messages\n• Fixed repeated \"AltServer could not be found\" notifications\n• Fixed missing metadata for errors received from AltServer\n• Fixed decoding nested error metadata values",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_rc2.ipa",
-          "size": 5614213,
-          "minOSVersion": "12.2"
-        },
-        {
-          "version": "1.6rc",
-          "date": "2022-12-21T11:30:00-06:00",
-          "localizedDescription": "• Moved Error Log from \"Debug\" settings to \"Techy Things\"\n• Improved misc. error messages\n• Fixed repeated \"AltServer could not be found\" notifications\n• Fixed missing metadata for errors received from AltServer\n• Fixed decoding nested error metadata values",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_rc.ipa",
-          "size": 5606669,
-          "minOSVersion": "12.2"
-        },
-        {
-          "version": "1.6b4",
-          "date": "2022-11-30T12:00:00-06:00",
-          "localizedDescription": "• Checks iOS compatibility for updates and installs \n• Asks user to install latest compatible version if not supported\n• View unsupported updates from My Apps tab\n• Pull-to-refresh to check for updates",
-          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_b4.ipa",
-          "size": 5608964
-        }
-      ],
-      "version": "1.6.2b",
-      "versionDate": "2023-03-21T12:00:00-05:00",
-      "versionDescription": "This beta fixes the \"no provisioning profile with the requested identifier…\" error when sideloading or refreshing apps.\n\n⚠️ You must manually install this update by downloading the latest AltServer beta from Patreon and using it to re-reinstall AltStore. You do not need to delete AltStore first.",
-      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_2_b.ipa",
-      "localizedDescription": "AltStore is an alternative app store for non-jailbroken devices. \n\nThis beta release of AltStore adds support for 3rd party sources, allowing you to download apps from other developers directly through AltStore.",
-      "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
-      "tintColor": "018084",
-      "size": 5624104,
-      "category": "utilities",
-      "beta": true,
-      "patreon": {
-        "pledge": 3,
-        "benefit": "1186336",
-        "hidden": true
-      },
-      "screenshots": [
-        "https://user-images.githubusercontent.com/705880/277757361-da7fcafa-6fc7-4b2b-90c9-debaddf80954.PNG",
-        "https://user-images.githubusercontent.com/705880/277757303-ee0b7695-0e7d-4a93-8b25-4fbbbd3cb745.PNG",
-        "https://user-images.githubusercontent.com/705880/277757263-ef612879-0314-4464-a8f4-103e1f22fbb1.png",
-        "https://user-images.githubusercontent.com/705880/277757445-450618d1-6005-445e-bfd4-7c75387e990b.PNG",
-        "https://user-images.githubusercontent.com/705880/277757220-ebbf42dc-5153-4e2d-9ff4-4c25ad367941.PNG",
-        "https://user-images.githubusercontent.com/705880/277757419-f8067301-61f3-4eae-bbd1-be1bf2a1c05c.PNG"
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/1.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/2.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/3.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/4.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/5.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/6.PNG"
       ],
       "screenshotURLs": [
         "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
