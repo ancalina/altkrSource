@@ -70,8 +70,7 @@
           "usageDescription": "AltStore uses the local network to find and communicate with AltServer."
         }
       ]
-      }
-    },
+      },
     {
       "name": "Delta",
       "bundleIdentifier": "com.rileytestut.Delta",
