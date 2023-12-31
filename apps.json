@@ -22,7 +22,7 @@
             "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/6.PNG"
 
         ],
-        "versions": [2.0b6K],
+        "versions": "2.0b6K",
               "permissions": [
         {
           "type": "background-fetch",
@@ -56,6 +56,6 @@
       ]
         
     },
-]
+],
 
 }
