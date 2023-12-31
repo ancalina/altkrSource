@@ -5,25 +5,24 @@
   "description": "AltStore의 기본 저장소 입니다. AltStore에 더 많은 저장소를 추가 할 수 있습니다.",
   "apps": [
     {
-        "name": "AltStore",
-        "bundleIdentifier": "com.ancalina.AltStore",
-        "developerName": "ancalina.taekyung",
-        "subtitle": "한국어로 번역된 AltStore.",
-        "localizedDescription": "ipa를 사이드로딩하세요!",
-        "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
-        "tintColor": "#018084",
-        "category": "utilities",
-        "screenshots": [
-            "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/1.PNG",
-            "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/2.PNG",
-            "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/3.PNG",
-            "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/4.PNG",
-            "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/5.PNG",
-            "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/6.PNG"
-
-        ],
-        "versions": "2.0b6K",
-              "permissions": [
+      "name": "AltStore",
+      "bundleIdentifier": "com.ancalina.AltStore",
+      "developerName": "ancalina.taekyung",
+      "subtitle": "한국어로 번역된 AltStore.",
+      "localizedDescription": "ipa를 사이드로딩하세요!",
+      "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
+      "tintColor": "#018084",
+      "category": "utilities",
+      "screenshots": [
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/1.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/2.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/3.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/4.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/5.PNG",
+        "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/6.PNG"
+      ],
+      "versions": "2.0b6K",
+      "permissions": [
         {
           "type": "background-fetch",
           "usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
@@ -36,26 +35,25 @@
       "appPermissions": {
         "entitlements": [
           {
-          "name": "get-task-allow"
-        },
-        {
-          "name": "com.apple.security.application-groups"
-        },
-        {
-          "name": "aps-environment"
-        },
-        {
-          "name": "com.apple.developer.siri"
-        }
+            "name": "get-task-allow"
+          },
+          {
+            "name": "com.apple.security.application-groups"
+          },
+          {
+            "name": "aps-environment"
+          },
+          {
+            "name": "com.apple.developer.siri"
+          }
         ],
         "privacy": [
           {
-          "name": "LocalNetwork",
-          "usageDescription": "AltStore uses the local network to find and communicate with AltServer."
-        }
-      ]
-        
-    },
-
-
+            "name": "LocalNetwork",
+            "usageDescription": "AltStore uses the local network to find and communicate with AltServer."
+          }
+        ]
+      }
+    }
+  ]
 }
