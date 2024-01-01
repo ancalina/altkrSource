@@ -13,8 +13,8 @@
             "name": "알트스토어",
             "bundleIdentifier": "com.ancalina.AltStore",
             "developerName": "ancalina.taekyung",
-            "subtitle": "한국어로 번역된 알트스토어.",
-            "localizedDescription": "알트스토어의 한국어 버전",
+            "subtitle": "한국어로 번역된 알트스토어",
+            "localizedDescription": " ",
             "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
             "tintColor": "#018084",
             "screenshots": [
@@ -36,18 +36,18 @@
                     "date": "2023-12-31T09:00:00-00:00",
                     "downloadURL": "hhttps://github.com/ancalina/altkrSource/raw/main/AltStore/AltStore.ipa",
                     "size": 6173708,
-                    "localizedDescription": "한국어로 번역했습니다.",
+                    "localizedDescription": "한국어로 번역되었습니다.",
                     "minOSVersion": "14.0"
                 }
             ],
       "permissions": [
         {
           "type": "background-fetch",
-          "usageDescription": "AltStore periodically refreshes apps in the background to prevent them from expiring."
+          "usageDescription": "알트스토어는 앱이 만료되는 것을 방지하기 위해 주기적으로 앱을 백그라운드에서 새로 고칩니다."
         },
         {
           "type": "background-audio",
-          "usageDescription": "Allows AltStore to run longer than 30 seconds when refreshing apps in background."
+          "usageDescription": "앱을 백그라운드에서 새로 고칠 때 알트스토어가 30초 이상 실행되도록 허용합니다."
         }
       ],
       "appPermissions": {
@@ -68,7 +68,7 @@
         "privacy": [
           {
             "name": "LocalNetwork",
-            "usageDescription": "AltStore uses the local network to find and communicate with AltServer."
+            "usageDescription": "알트스토어는 AltServer를 찾고 통신하기위해 로컬 네트워크를 사용합니다."
           }
         ]
       }
@@ -76,24 +76,13 @@
     ],
     "news": [
         {
-            "title": "New Feature Announcement",
+            "title": "한국어로 번역된 알트스토어",
             "identifier": "new_feature",
-            "caption": "Introducing a new feature in AltStore!",
-            "date": "2023-03-15",
+            "caption": "WOW",
+            "date": "2024-01-01",
             "tintColor": "#5CA399",
-            "imageURL": "https://example.com/new_feature_image.png",
-            "notify": true,
-            "url": "https://example.com/new_feature_details"
-        },
-        {
-            "title": "App Update Available",
-            "identifier": "app_update",
-            "caption": "An update is available for My Example App.",
-            "date": "2023-03-10T10:00:00-07:00",
-            "tintColor": "#3660A2",
-            "imageURL": "https://example.com/app_update_image.png",
-            "notify": false,
-            "appID": "com.example.myapp"
+            "appID": "com.ancalina.AltStore"
+            "notify": true
         }
     ]
 }
