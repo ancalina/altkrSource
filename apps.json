@@ -91,6 +91,15 @@
             "tintColor": "#5CA399",
             "appID": "com.ancalina.AltStore",
             "notify": true
+        },
+                {
+            "title": "2.0b7K 업데이트",
+            "identifier": "new_feature",
+            "caption": "이 알림을 눌러 설치하세요.",
+            "date": "2024-01-01",
+            "tintColor": "#5CA399",
+            "appID": "com.ancalina.AltStore",
+            "notify": true
         }
     ]
 }
