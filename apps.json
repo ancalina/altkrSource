@@ -31,10 +31,18 @@
                 }
             ],
             "versions": [
+                                {
+                    "version": "2.0b7K",
+                    "date": "2023-12-31T09:00:00-00:00",
+                    "downloadURL": "https://github.com/ancalina/AltStore/releases/download/latest/AltStore.ipa",
+                    "size": 11306110,
+                    "localizedDescription": "오류를 수정하고, 번역을 수정했습니다.",
+                    "minOSVersion": "14.0"
+                },
                 {
                     "version": "2.0b6K",
                     "date": "2023-12-31T09:00:00-00:00",
-                    "downloadURL": "https://github.com/ancalina/altkrSource/raw/main/AltStore/AltStore.ipa",
+                    "downloadURL": "https://github.com/ancalina/altkrSource/raw/main/ipa%20archive/AltStore%202.0b6K.ipa",
                     "size": 6173708,
                     "localizedDescription": "한국어로 번역되었습니다.",
                     "minOSVersion": "14.0"
