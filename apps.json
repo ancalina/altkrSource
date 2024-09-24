@@ -1,61 +1,69 @@
 {
-    "name": "AncStore",
-    "subtitle": "한국어 AltStore 저장소",
-    "description": "더 많은 저장소를 추가할 수 있습니다.",
-    "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
-    "headerURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
-    "tintColor": "#018084",
-    "featuredApps": [
-        "com.ancalina.AltStore"
-    ],
-    "apps": [
+  "name": "AltStore",
+  "identifier": "com.rileytestut.AltStore",
+  "subtitle": "iOS의 경계를 넓히는 앱의 집.",
+  "description": "AltStore의 기본 소스입니다. 추가 소스를 추가하여 AltStore에 표시되는 앱을 관리할 수 있습니다.\n\n자세한 내용은 FAQ를 확인하세요: https://faq.altstore.io/patreon/beta-access/sources",
+  "website": "https://altstore.io",
+  "patreonURL": "https://www.patreon.com/rileyshane",
+  "apps": [
+    {
+      "name": "AltStore",
+      "bundleIdentifier": "com.rileytestut.AltStore",
+      "developerName": "Riley Testut",
+      "versions": [
         {
-            "name": "알트스토어",
-            "bundleIdentifier": "com.ancalina.AltStore",
-            "developerName": "ancalina.taekyung",
-            "subtitle": "한국어로 번역된 알트스토어",
-            "localizedDescription": " ",
-            "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
-            "tintColor": "#018084",
-            "screenshots": [
-                "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/1.PNG",
-                "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/2.PNG",
-                "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/3.PNG",
-                "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/4.PNG",
-                "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/5.PNG",
-                "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/6.PNG",
-                {
-                    "imageURL": "https://raw.githubusercontent.com/ancalina/altkrSource/main/AltStore/1.PNG",
-                    "width": 2556,
-                    "height": 1179
-                }
-            ],
-            "versions": [
-                                {
-                    "version": "2.0b7K",
-                    "date": "2024-01-03T17:00:00-00:00",
-                    "downloadURL": "https://github.com/ancalina/AltStore/releases/download/latest/AltStore.ipa",
-                    "size": 6173806,
-                    "localizedDescription": "오류를 수정하고, 번역을 수정했습니다.",
-                    "minOSVersion": "14.0"
-                },
-                {
-                    "version": "2.0b6K",
-                    "date": "2023-12-31T09:00:00-00:00",
-                    "downloadURL": "https://github.com/ancalina/altkrSource/raw/main/ipa%20archive/AltStore%202.0b6K.ipa",
-                    "size": 6173708,
-                    "localizedDescription": "한국어로 번역되었습니다.",
-                    "minOSVersion": "14.0"
-                }
-            ],
+          "version": "1.7",
+          "date": "2023-09-18T12:00:00-05:00",
+          "localizedDescription": "NEW\n\n\"활성 앱\" 위젯 (iOS 17+)\n• 홈 화면에서 모든 활성 앱의 남은 일수 보기\n• 카운트다운 타이머를 눌러 홈 화면에서 앱 새로 고침\n\nIMPROVED\n\n단축어\n• 기존의 \"모든 앱 새로 고침\" 단축어를 앱 단축어로 변환\n• 단축어 앱의 \"앱 단축어\" 섹션에 기본 제공\n• 단축어 앱을 통해 앱 새로 고침 시 정확한 진행률 표시\n\n위젯\n• 기존 홈 화면 위젯을 업데이트하여 카운트다운을 눌러 앱을 새로 고침 지원 (iOS 17+)\n• macOS Sonoma와 완벽하게 호환\n\nFIXED\n• iOS 17*에서 AltJIT 수정\n• 수동으로 제거한 확장자가 있는 앱의 업데이트 수정 (예: uYou+)\n• 단축어를 통해 새로 고침할 때 AltStore 마지막 새로 고침 문제 수정\n• 특정 오류에 대한 모든 세부 정보를 표시하지 않는 오류 로그 수정\n\n*AltServer 1.7 (macOS) 필요",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_7.ipa",
+          "size": 5809750,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "1.6.3",
+          "date": "2023-04-12T12:00:00-05:00",
+          "localizedDescription": "• 예상치 못한 nil 이름으로 인해 친구 존 후원자 가져오기 오류 수정\n• 일부 뉴스 항목에 대한 잘못된 셀 높이 수정",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_3.ipa",
+          "size": 5625134
+        },
+        {
+          "version": "1.6.2",
+          "date": "2023-03-22T12:00:00-05:00",
+          "localizedDescription": "⚠️ 이 업데이트는 AltServer로 AltStore를 다시 설치하여 수동으로 설치해야 합니다. AltStore를 먼저 삭제할 필요는 없습니다.\n\n이 업데이트는 앱을 사이드로드하거나 새로 고칠 때 \"요청된 식별자에 대한 프로비저닝 프로필이 없습니다...\" 오류를 수정합니다.",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_2.ipa",
+          "size": 5624498
+        }
+      ],
+      "version": "1.6.3",
+      "versionDate": "2023-04-12T12:00:00-05:00",
+      "versionDescription": "• 예상치 못한 nil 이름으로 인해 친구 존 후원자 가져오기 오류 수정\n• 일부 뉴스 항목에 대한 잘못된 셀 높이 수정",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_6_3.ipa",
+      "localizedDescription": "AltStore는 탈옥하지 않은 장치를 위한 대체 앱 스토어입니다. \n\n이 버전의 AltStore를 사용하면 Delta, iOS용 올인원 에뮬레이터를 설치하고, Files 앱에서 다른 .ipa 파일을 사이드로드할 수 있습니다.",
+      "iconURL": "https://user-images.githubusercontent.com/705880/65270980-1eb96f80-dad1-11e9-9367-78ccd25ceb02.png",
+      "tintColor": "018084",
+      "size": 5625134,
+      "category": "utilities",
+      "screenshots": [
+        "https://user-images.githubusercontent.com/705880/277757391-76c02f48-be2a-485a-ba75-277480c99356.jpeg",
+        "https://user-images.githubusercontent.com/705880/277757303-ee0b7695-0e7d-4a93-8b25-4fbbbd3cb745.PNG",
+        "https://user-images.githubusercontent.com/705880/277757263-ef612879-0314-4464-a8f4-103e1f22fbb1.png",
+        "https://user-images.githubusercontent.com/705880/277757445-450618d1-6005-445e-bfd4-7c75387e990b.PNG",
+        "https://user-images.githubusercontent.com/705880/277757220-ebbf42dc-5153-4e2d-9ff4-4c25ad367941.PNG",
+        "https://user-images.githubusercontent.com/705880/277757419-f8067301-61f3-4eae-bbd1-be1bf2a1c05c.PNG"
+      ],
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/78942028-acf54300-7a6d-11ea-821c-5bb7a9b3e73a.PNG",
+        "https://user-images.githubusercontent.com/705880/78942222-0fe6da00-7a6e-11ea-9f2a-dda16157583c.PNG",
+        "https://user-images.githubusercontent.com/705880/65605577-332cba80-df5e-11e9-9f00-b369ce974f71.PNG"
+      ],
       "permissions": [
         {
           "type": "background-fetch",
-          "usageDescription": "알트스토어는 앱이 만료되는 것을 방지하기 위해 주기적으로 앱을 백그라운드에서 새로 고칩니다."
+          "usageDescription": "AltStore는 앱이 만료되지 않도록 백그라운드에서 주기적으로 새로 고침합니다."
         },
         {
           "type": "background-audio",
-          "usageDescription": "앱을 백그라운드에서 새로 고칠 때 알트스토어가 30초 이상 실행되도록 허용합니다."
+          "usageDescription": "AltStore가 백그라운드에서 앱을 새로 고칠 때 30초 이상 실행될 수 있습니다."
         }
       ],
       "appPermissions": {
@@ -76,29 +84,286 @@
         "privacy": [
           {
             "name": "LocalNetwork",
-            "usageDescription": "알트스토어는 AltServer를 찾고 통신하기위해 로컬 네트워크를 사용합니다."
+            "usageDescription": "AltStore는 로컬 네트워크를 사용하여 AltServer를 찾고 통신합니다."
           }
         ]
       }
-        }
-    ],
-    "news": [
+    },
+    {
+      "name": "Delta",
+      "bundleIdentifier": "com.rileytestut.Delta",
+      "subtitle": "클래식 게임을 주머니에서.",
+      "developerName": "Riley Testut",
+      "versions": [
         {
-            "title": "한국어로 번역된 알트스토어",
-            "identifier": "new_feature",
-            "caption": "업데이트는 계속됩니다.",
-            "date": "2024-01-01",
-            "tintColor": "#5CA399",
-            "notify": true
+          "version": "1.6.3",
+          "buildVersion": "120",
+          "date": "2024-09-16T12:00:00-05:00",
+          "localizedDescription": "• 실험적 기능 잠금 해제 오류 수정\n• iOS 18에서 일부 시각적 버그 수정",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_3.ipa",
+          "size": 87748210,
+          "sha256": "230b5038bb10570da3f3a93acc22e20a16d2ff45874f1e7d80eab348b82a909b",
+          "minOSVersion": "14.0"
         },
-                {
-            "title": "2.0b7K 업데이트",
-            "identifier": "new_feature",
-            "caption": "이 알림을 눌러 설치하세요.",
-            "date": "2024-01-01",
-            "tintColor": "#5CA399",
-            "appID": "com.ancalina.AltStore",
-            "notify": true
+        {
+          "version": "1.6.2",
+          "buildVersion": "114",
+          "date": "2024-07-31T12:00:00-05:00",
+          "localizedDescription": "• DS 터치 스크린 입력이 간헐적으로 드롭되는 문제 수정\n• 특정 스킨 로딩 시 충돌 수정\n• 특정 iPhone 스킨을 iPad에서 로딩 시 충돌 수정\n• AirPlaying 중 앱이 멈추는 문제 수정\n• 특정 스킨으로 기기 회전 시 앱이 멈추는 문제 수정",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_2.ipa",
+          "size": 87753113,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.6.1",
+          "buildVersion": "109",
+          "date": "2024-07-23T12:00:00-05:00",
+          "localizedDescription": "NEW\n• iPad에서 iPhone 스킨을 사용할 수 있도록 지원\n\nFIXED\n• DS 저장 상태 로딩 시 드문 충돌 수정\n• visionOS 및 macOS에서 게임 컨트롤러가 작동하지 않는 문제 수정\n• macOS에서 하드웨어 키보드 지원 수정\n• 외부 컨트롤러에서 리맵된 메뉴 버튼이 작동하지 않는 문제 수정\n• 리맵된 메뉴 버튼을 사용하는 외부 컨트롤러에서 입력 지연 수정\n• iPad 버전으로 업데이트 후 DS 터치 스크린이 응답하지 않는 문제 수정",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_1.ipa",
+          "size": 87753061,
+          "minOSVersion": "14.0"
+        },
+        {
+          "version": "1.6",
+          "buildVersion": "102",
+          "date": "2024-07-10T12:00:00-05:00",
+          "localizedDescription": "⚠️ 이 업데이트는 기존 DS 저장 상태와 호환되지 않습니다. 업데이트 전에 게임 내에서 정상적으로 저장하세요.\n\nNEW\n\n앱 아이콘\n• 법적으로 컴플라이언스된 새로운 앱 아이콘 (Caroline Moore님 감사합니다!)\n• 커뮤니티 구성원이 디자인한 대체 앱 아이콘 포함:\n• \"Halogenide\" by Sebastiaan de With\n• \"Ketchup\" by Ben McCarthy\n• \"Microchip\" by Sean Fletcher\n\niPad 지원\n• iPad의 아름다운 디스플레이에서 게임을 전체 화면으로 플레이\n• iPad 전용으로 설계된 새로운 컨트롤러 스킨 (Caroline Moore님 감사합니다!)\n• Stage Manager 및 Split View에서 여러 창 지원\n• 창 전환 시 게임이 자동으로 일시 중지 (선택 사항)\n\nmelonDS 0.9.5\n• DS 게임 호환성 및 성능 향상\n• BIOS 파일이 이제 선택 사항!\n• DS 듀얼 슬롯에 GBA 게임을 \"삽입\"할 수 있도록 지원\n• A15 프로세서 이상에서 패스트 포워드 속도를 3배로 증가\n\n메뉴 버튼 제스처\n• 메뉴 버튼을 누르고 제스처를 사용하여 빠른 작업 수행\n• 메뉴 + 수평 스와이프: 패스트 포워드\n• 메뉴 + 아무 버튼: 버튼 유지\n• 메뉴 + 더블탭: 빠른 저장\n• 메뉴 + 롱프레스: 빠른 로드\n\n실험적 기능\n• 기여자에 의해 제공된 기능에 대한 설정 내 새로운 섹션\n• 기능은 진행 중이며 사용자의 재량에 따라 사용해야 함\n• Patreon의 \"Beta Access\" 등급 이상의 후원자에게 제공\n\n저장 상태\n• 저장 상태를 이름으로 정렬\n• 호환되지 않는 모든 스크린샷을 별도의 화면에서 보기\n• 다른 에뮬레이터로 가져오기 위해 저장 상태 내보내기\n\n“전체 화면 표시” AirPlay 설정\n• Delta가 외부 디스플레이에서 게임을 전체 화면으로 표시할지 제어\n• 다중 창 사용을 위해 비활성화\n\n기타\n• iOS 18+에서 게임 모드 지원\n• 기본 엣지 투 엣지 iPhone 가로 스킨에 대해 DS 화면 크기 증가\n\nFIXED\n• 파일 확장자 없이 저장 파일 내보내기 문제 수정\n• WarioWare: Twisted!를 플레이할 때 인터페이스 회전 문제 수정\n• Pokemon Black & White (2)가 C-Gear 활성화 시 멈추는 문제 수정",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6.ipa",
+          "size": 87734964,
+          "minOSVersion": "14.0"
         }
-    ]
+      ],
+      "version": "1.6.3",
+      "versionDate": "2024-09-16T12:00:00-05:00",
+      "versionDescription": "• 실험적 기능 잠금 해제 오류 수정\n• iOS 18에서 일부 시각적 버그 수정",
+      "downloadURL": "https://cdn.altstore.io/file/altstore/apps/delta/1_6_3.ipa",
+      "localizedDescription": "Delta는 iOS를 위한 올인원 에뮬레이터입니다. Delta는 이전의 GBA4iOS의 강점을 기반으로 하여 NES, SNES, N64와 같은 더 많은 게임 시스템을 지원합니다.\n\n기능:\n\n지원하는 게임 시스템:\n• 닌텐도 엔터테인먼트 시스템\n• 슈퍼 닌텐도 엔터테인먼트 시스템\n• 닌텐도 64\n• 게임 보이 (컬러)\n• 게임 보이 어드밴스\n• 닌텐도 DS\n• 앞으로도 더 많은 지원 예정!\n\n컨트롤러 지원:\n• PS4, PS5, Xbox One S, Xbox Series X 및 MFi 게임 컨트롤러 지원.\n• 블루투스(및 유선) 키보드와 애플 스마트 키보드 지원.\n• 각 시스템 및 각 컨트롤러에 대한 버튼 매핑 완전 사용자 정의.\n• \"빠른 저장\", \"빠른 로드\", \"패스트 포워드\"와 같은 특별한 작업을 위해 버튼 매핑.\n\n저장 상태:\n• 메뉴에서 모든 게임에 대한 저장 상태 저장 및 로드.\n• 실수로 덮어쓰지 않도록 저장 상태 잠금.\n• 진행을 잃지 않도록 자동으로 백업 저장 상태 생성.\n• 외부 컨트롤러가 필요할 경우 단일 버튼 누르기로 빠르게 저장하는 \"빠른 저장\" 지원.\n\n치트:\n• 각 지원되는 시스템에 대한 다양한 치트 코드 지원:\n• NES: 게임 지니\n• SNES: 게임 지니, 프로 액션 리플레이\n• N64: 게임샤크\n• GBC: 게임 지니, 게임샤크\n• GBA: 액션 리플레이, 코드 브레이커, 게임샤크\n• DS: 액션 리플레이\n\nDelta Sync:\n• 게임, 게임 저장, 저장 상태, 치트, 컨트롤러 스킨 및 컨트롤러 매핑을 장치 간 동기화.\n• 동기화한 모든 항목의 버전 기록 보기 및 필요에 따라 이전 버전으로 복원할 수 있음.\n• Google Drive 및 Dropbox 지원.\n\n사용자 정의 컨트롤러 스킨:\n• 모든 시스템에 대한 아름다운 내장 컨트롤러 스킨.\n• 다른 사람이 만든 컨트롤러 스킨을 가져오거나, 스킨을 공유할 수 있도록 직접 만들기.\n\n버튼 유지:\n• Delta가 대신 누를 버튼 선택 가능, 손가락을 다른 버튼에 사용할 수 있도록.\n• 일반적으로 한 버튼을 지속적으로 눌러야 하는 게임에 적합 (예: 마리오 게임에서의 달리기 버튼 또는 마리오 카트의 A 버튼).\n\n패스트 포워드:\n• 게임의 느린 부분을 빠르게 진행 가능.\n• 일시 중지 메뉴에서 쉽게 활성화하거나 비활성화할 수 있음, 또는 외부 컨트롤러의 매핑된 버튼으로도 가능.\n\n3D/Haptic Touch:\n• 게임, 저장 상태 및 치트 코드를 미리 볼 수 있도록 3D 또는 햅틱 터치 사용.\n• 앱 아이콘 단축키를 통해 최근에 플레이한 게임에 빠르게 접근 가능, 또는 특정 게임을 항상 포함하도록 단축키 사용자 정의 가능.\n\n게임 아트워크:\n• 가져온 게임에 대해 자동으로 적절한 박스 아트를 표시.\n• 게임의 아트워크를 원하는 대로 변경하거나 내장된 게임 아트워크 데이터베이스에서 선택 가능.\n\n기타:\n• 자이로스코프 지원 (WarioWare: Twisted!만 해당)\n• 마이크 지원 (DS 전용)\n• 특정 게임으로 바로 뛰어들 수 있는 delta:// URL 스킴 지원.\n\n**Delta와 AltStore LLC는 닌텐도와 아무런 관련이 없습니다. \"닌텐도\"라는 이름과 모든 관련된 게임 콘솔 이름은 닌텐도 주식회사의 등록 상표입니다.**",
+      "iconURL": "https://cdn.altstore.io/file/altstore/images/delta/Delta4.png",
+      "tintColor": "8A28F7",
+      "size": 46319655,
+      "category": "games",
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Delta는 게임 아트워크로 사용하기 위해 사진 라이브러리에서 이미지를 사용합니다."
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          {
+            "name": "get-task-allow"
+          },
+          {
+            "name": "com.apple.developer.game-center"
+          }
+        ],
+        "privacy": [
+          {
+            "name": "Microphone",
+            "usageDescription": "Delta는 닌텐도 DS 마이크를 에뮬레이트하기 위해 마이크를 사용합니다."
+          },
+          {
+            "name": "LocalNetwork",
+            "usageDescription": "Delta는 AltServer와 통신하고 JIT를 활성화하기 위해 로컬 네트워크를 사용합니다."
+          },
+          {
+            "name": "PhotoLibrary",
+            "usageDescription": "Delta는 게임 아트워크로 사용하기 위해 사진 라이브러리에서 이미지를 사용합니다."
+          }
+        ]
+      },
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/65600448-f7d9be00-df54-11e9-9e3e-d4c31296da94.PNG",
+        "https://user-images.githubusercontent.com/705880/65813009-f2ae8600-e183-11e9-9eb7-704effc11173.png",
+        "https://user-images.githubusercontent.com/705880/65601117-58b5c600-df56-11e9-9c19-9a5ba5da54cf.PNG",
+        "https://user-images.githubusercontent.com/705880/65601125-5b182000-df56-11e9-9e7e-261480e893c0.PNG"
+      ],
+      "screenshots": [
+        "https://user-images.githubusercontent.com/705880/277049094-8458028c-92e0-4e73-99de-5dd865b76487.PNG",
+        "https://user-images.githubusercontent.com/705880/277049686-975b9d37-140a-481e-8668-765acdd1dedb.PNG",
+        {
+          "imageURL": "https://user-images.githubusercontent.com/705880/277049716-5d043eac-4cf2-46c9-8dfe-daefc40d0325.PNG",
+          "width": 2556,
+          "height": 1179
+        },
+        "https://user-images.githubusercontent.com/705880/277049074-15aabbaf-58f3-4609-b578-60ac7539ced0.PNG",
+        "https://user-images.githubusercontent.com/705880/277049050-e0d90f06-1f38-4736-8c1b-d41ec45d201b.PNG",
+        "https://user-images.githubusercontent.com/705880/277049040-a4dcc9d0-561d-4f1e-87cb-ff03e542a6d7.png"
+      ]
+    },
+    {
+      "name": "Clip",
+      "bundleIdentifier": "com.rileytestut.Clip",
+      "subtitle": "클립보드 기록을 쉽게 관리하세요.",
+      "developerName": "Riley Testut",
+      "versions": [
+        {
+          "version": "1.1",
+          "buildVersion": "14",
+          "date": "2024-06-05T12:00:00-05:00",
+          "localizedDescription": "• 백그라운드에서 실행하기 위해 위치 서비스를 사용하도록 전환\n• iOS 17에서 클립보드 읽기 개선",
+          "downloadURL": "https://cdn.altstore.io/file/altstore/apps/clip/1_1.ipa",
+          "size": 601183,
+          "minOSVersion": "15.0"
+        },
+        {
+          "version": "1.0",
+          "date": "2020-06-17T12:30:00-07:00",
+          "localizedDescription": "초기 버전 🎉",
+          "downloadURL": "https://f000.backblazeb2.com/file/altstore/apps/clip/1_0.ipa",
+          "size": 445056
+        }
+      ],
+      "version": "1.0",
+      "versionDate": "2020-06-17T12:30:00-07:00",
+      "versionDescription": "초기 버전 🎉",
+      "downloadURL": "https://f000.backblazeb2.com/file/altstore/apps/clip/1_0.ipa",
+      "localizedDescription": "Clip은 iOS를 위한 간단한 클립보드 관리자입니다. \n\n다른 클립보드 관리자와 달리 Clip은 백그라운드에서 클립보드를 모니터링할 수 있습니다. 이제 클립보드를 저장하기 위해 앱을 수동으로 열거나 공유할 필요 없이, 복사 및 붙여넣기를 정상적으로 하시면 Clip이 자동으로 저장합니다.\n\n백그라운드 모니터링 외에도 Clip은 다음과 같은 기능을 제공합니다:\n\n• 클립보드에 복사된 텍스트, URL 및 이미지를 저장합니다.\n• Clip에 저장된 클립을 복사, 삭제 또는 공유할 수 있습니다.\n• 사용자 정의 가능한 기록 제한.\n\n오늘 Clip을 다운로드하고 클립보드를 잃어버릴 걱정 없이 사용하세요!",
+      "iconURL": "https://user-images.githubusercontent.com/705880/63391981-5326f800-c37a-11e9-99d8-760fd06bb601.png",
+      "tintColor": "EC008C",
+      "size": 445056,
+      "category": "utilities",
+      "permissions": [
+        {
+          "type": "background-audio",
+          "usageDescription": "Clip이 백그라운드에서 클립보드를 지속적으로 모니터링할 수 있도록 합니다."
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          {
+            "name": "inter-app-audio"
+          },
+          {
+            "name": "get-task-allow"
+          },
+          {
+            "name": "com.apple.security.application-groups"
+          }
+        ]
+      },
+      "screenshots": [
+        "https://user-images.githubusercontent.com/705880/277759370-15119bc7-a9d9-40a5-9f88-11a8146aba3b.PNG",
+        "https://user-images.githubusercontent.com/705880/277759409-f8bd1286-ce84-4914-96b5-0c611e678918.PNG",
+        "https://user-images.githubusercontent.com/705880/277759432-15a62f4f-8fe8-4a76-b6ec-31631a5eaf0c.PNG"
+      ],
+      "screenshotURLs": [
+        "https://user-images.githubusercontent.com/705880/63391950-34286600-c37a-11e9-965f-832efe3da507.png",
+        "https://user-images.githubusercontent.com/705880/70830209-8e738980-1da4-11ea-8b3b-6e5fbc78adff.png"
+      ]
+    }
+  ],
+  "featuredApps": [
+    "com.rileytestut.Delta",
+    "com.rileytestut.Clip"
+  ],
+  "news": [
+    {
+      "title": "델타, DS 지원 추가",
+      "identifier": "delta-ds-support",
+      "caption": "이번 토요일에 후원자에게 제공, 다른 모든 사용자에게 곧 출시됩니다.",
+      "tintColor": "8A28F7",
+      "imageURL": "https://user-images.githubusercontent.com/705880/65603159-0676a400-df5a-11e9-882e-dc5566f4d50a.png",
+      "date": "2019-09-25",
+      "notify": false
+    },
+    {
+      "title": "델타 이제 사용 가능",
+      "identifier": "delta-now-available",
+      "caption": "마침내 좋아하는 NES, SNES, GB(C), GBA 및 N64 게임을 즐기세요.",
+      "tintColor": "8A28F7",
+      "imageURL": "https://user-images.githubusercontent.com/705880/65604130-c1ec0800-df5b-11e9-8150-7657c474e3c3.png",
+      "appID": "com.rileytestut.Delta",
+      "date": "2019-09-28",
+      "notify": true
+    },
+    {
+      "title": "사이드로딩이 왔습니다!",
+      "identifier": "sideloading-is-here",
+      "caption": "AltStore 1.3으로 업데이트하여 파일에서 직접 앱을 설치하세요.",
+      "tintColor": "018084",
+      "imageURL": "https://user-images.githubusercontent.com/705880/79022069-02932380-7b32-11ea-8bad-49907cb97ece.png",
+      "date": "2020-04-10T13:00:00-07:00",
+      "notify": true
+    },
+    {
+      "title": "iOS 13.4 앱 충돌 수정",
+      "identifier": "ios-13-4-now-available",
+      "caption": "일부 사이드로드된 앱이 시작 시 충돌하는 문제를 해결하려면 iOS 13.4로 업데이트하세요.",
+      "tintColor": "34C759",
+      "date": "2020-04-10T13:30:00-07:00",
+      "notify": false
+    },
+    {
+      "title": "클립 이제 사용 가능!",
+      "identifier": "clip-now-available",
+      "caption": "마침내 백그라운드에서 실행할 수 있는 클립보드 관리자가 출시되었습니다 — 탈옥 필요 없음.",
+      "tintColor": "EC008C",
+      "imageURL": "https://user-images.githubusercontent.com/705880/65606598-04afdf00-df60-11e9-8f93-af6345d39557.png",
+      "appID": "com.rileytestut.Clip",
+      "date": "2020-06-17",
+      "notify": true
+    },
+    {
+      "title": "델타, 닌텐도 DS를 만나다",
+      "identifier": "delta-meet-ds",
+      "caption": "Delta 1.3으로 업데이트하여 좋아하는 닌텐도 DS 게임을 다시 즐기세요.",
+      "tintColor": "8A28F7",
+      "imageURL": "https://user-images.githubusercontent.com/705880/115617602-6ce2b600-a2a6-11eb-984e-2197a30c71e2.png",
+      "appID": "com.rileytestut.Delta",
+      "date": "2021-04-21",
+      "notify": true
+    },
+    {
+      "title": "#우크라이나를 지지합니다",
+      "identifier": "support-ukraine",
+      "caption": "러시아의 침공으로 영향을 받은 사람들을 지원하는 방법을 알아보세요.",
+      "tintColor": "003e80",
+      "imageURL": "https://user-images.githubusercontent.com/705880/156053447-a158cac7-df5f-4497-8025-15c3c2e10b48.png",
+      "url": "https://linktr.ee/razomforukraine",
+      "date": "2022-03-01",
+      "notify": false
+    },
+    {
+      "title": "가장 큰 AltServer 업데이트!",
+      "identifier": "altserver-1-5",
+      "caption": "AltServer 1.5로 업데이트하여 AltJIT 및 기타 흥미로운 새로운 기능을 사용하세요.",
+      "tintColor": "018084",
+      "imageURL": "https://user-images.githubusercontent.com/705880/166509576-744be578-6868-4b7d-b4fd-b9418c084327.png",
+      "url": "https://faq.altstore.io/release-notes/altserver",
+      "date": "2022-05-03",
+      "notify": true
+    },
+    {
+      "title": "AltStore에서 더 많은 앱!",
+      "identifier": "trusted-sources",
+      "caption": "AltStore 1.5로 업데이트하여 좋아하는 앱을 쉽게 다운로드하세요.",
+      "tintColor": "00CAB3",
+      "imageURL": "https://user-images.githubusercontent.com/705880/167026375-ddcb004f-7160-405c-b3e3-87a6795d2f43.png",
+      "url": "https://faq.altstore.io/release-notes/altstore",
+      "date": "2022-05-05",
+      "notify": true
+    },
+    {
+      "title": "AltStore에 처음이신가요?",
+      "identifier": "updated-faq",
+      "caption": "앱을 사이드로드하는 방법을 배우려면 업데이트된 가이드를 확인하세요!",
+      "tintColor": "018084",
+      "url": "https://faq.altstore.io",
+      "date": "2022-07-28",
+      "notify": false
+    },
+    {
+      "title": "더 많은 신뢰할 수 있는 소스!",
+      "identifier": "welcome-provenance-pojavlauncher",
+      "caption": "Provenance와 PojavLauncher를 AltStore에 환영합니다 🎉",
+      "tintColor": "00A2FF",
+      "date": "2022-12-12",
+      "notify": true,
+      "imageURL": "https://user-images.githubusercontent.com/705880/207133455-1e851fd0-89ae-48f0-906f-8f86f4e394db.png"
+    }
+  ],
+  "userInfo": {
+    "patreonAccessToken": "uqoDoTxH8dY1ImE8tK76wxrzKk67gjyjBAcK8sD3RLU"
+  }
 }
