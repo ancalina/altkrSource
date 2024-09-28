@@ -8,7 +8,7 @@
   "apps": [
     {
       "name": "AltStore",
-      "bundleIdentifier": "com.rileytestut.AltStore",
+      "bundleIdentifier": "me.ancal.AltStore",
       "developerName": "Riley Testut",
       "versions": [
         {
