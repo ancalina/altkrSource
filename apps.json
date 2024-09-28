@@ -12,7 +12,7 @@
       "developerName": "Riley Testut",
       "versions": [
         {
-          "version": "1.7",
+          "version": "2.0rc",
           "date": "2023-09-18T12:00:00-05:00",
           "localizedDescription": "NEW\n\n\"활성 앱\" 위젯 (iOS 17+)\n• 홈 화면에서 모든 활성 앱의 남은 일수 보기\n• 카운트다운 타이머를 눌러 홈 화면에서 앱 새로 고침\n\nIMPROVED\n\n단축어\n• 기존의 \"모든 앱 새로 고침\" 단축어를 앱 단축어로 변환\n• 단축어 앱의 \"앱 단축어\" 섹션에 기본 제공\n• 단축어 앱을 통해 앱 새로 고침 시 정확한 진행률 표시\n\n위젯\n• 기존 홈 화면 위젯을 업데이트하여 카운트다운을 눌러 앱을 새로 고침 지원 (iOS 17+)\n• macOS Sonoma와 완벽하게 호환\n\nFIXED\n• iOS 17*에서 AltJIT 수정\n• 수동으로 제거한 확장자가 있는 앱의 업데이트 수정 (예: uYou+)\n• 단축어를 통해 새로 고침할 때 AltStore 마지막 새로 고침 문제 수정\n• 특정 오류에 대한 모든 세부 정보를 표시하지 않는 오류 로그 수정\n\n*AltServer 1.7 (macOS) 필요",
           "downloadURL": "https://cdn.altstore.io/file/altstore/apps/altstore/1_7.ipa",
